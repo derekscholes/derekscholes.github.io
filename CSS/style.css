@@ -26,7 +26,8 @@
       height: 50px;
       width: 200px;
       margin: auto;
-      filter: 50%;  
+      filter: 50%; 
+      display: block;  
      }
     
     button {
