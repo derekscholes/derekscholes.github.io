@@ -206,13 +206,13 @@
     
     input,
     textarea,
-    select {
+    select, button2 {
       margin: 10px 0 0 0;
       width: 100%;
       min-height: 2em;
     }
     
-    input, textarea {
+    input, textarea, button2 {
       background-color: white;
       border: 1px solid #0BA5BE;
       color: black;
@@ -224,7 +224,7 @@
       vertical-align: middle;
     }
     
-    input[type="submit"] {
+    button2, input[type="submit"] {
       display: block;
       width: 60%;
       margin: 1em auto;
@@ -235,7 +235,7 @@
       min-width: 300px;
     }
     
-    input[type="file"] {
+    button2, input[type="file"] {
       padding: 1px 2px;
     }
     
