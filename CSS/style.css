@@ -224,7 +224,7 @@
       vertical-align: middle;
     }
     
-    button2[type="submit"] {
+    button2[type="submit"], input[type="submit"] {
       display: block;
       width: 60%;
       margin: 1em auto;
