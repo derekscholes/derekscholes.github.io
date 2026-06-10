@@ -251,6 +251,7 @@
       height: 250px;
       width: 500px;
       margin: auto 5px auto 5px;
+      display: block;  
     }
 
 
