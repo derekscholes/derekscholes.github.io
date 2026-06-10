@@ -27,6 +27,7 @@
       width: calc(50px + 13vw);
       height: auto; 
       margin: auto;
+        object-fit: cover;
      }
 
    .heading-picture:hover {
@@ -259,6 +260,7 @@
       margin: 5px auto 5px auto;
       display: block;  
       text-align: center;  
+        object-fit: cover;
     }
 
 
