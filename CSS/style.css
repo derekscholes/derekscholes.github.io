@@ -29,18 +29,10 @@
       margin: auto;
      }
 
-    home-button {
-      min-height: 50px;
-      font-size: calc(8px + 1vw);
-      text-align: center;
-      border: 0;
-      width: calc(50px + 13vw);
-      margin: 2px;
-           }
-
-    home-button:hover {
-      color: #0BA5BE;
-    }
+   .heading-picture:hover {
+               background-color: #013F4E;
+            color: #0BA5BE;
+   }
 
     button {
       background-color: #0BA5BE;
@@ -261,7 +253,8 @@
     }
     
     .gipicture {
-      max-width: 20%;
+      min-height: 75px;
+      width: calc(100px + 13vw);
       height: auto;  
       margin: 5px auto 5px auto;
       display: block;  
