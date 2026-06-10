@@ -26,6 +26,7 @@
       height: 100px;
       width: 200px;
       margin: auto;
+      border: 5px solid #333333;
      }
     
     button {
