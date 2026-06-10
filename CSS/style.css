@@ -24,7 +24,7 @@
 
     .heading-picture {
       display: block;    
-      max-width: 100%;
+      max-width: 10%;
       height: auto; 
       margin: auto;
      }
@@ -95,7 +95,7 @@
     img.team-photo {
       display: block;
       max-width: 200px;
-      max-height: auto;
+      max-height: 200px;
       border-radius: 50%;
       margin: auto;
       text-align: center;
@@ -248,7 +248,7 @@
     }
     
     .gipicture {
-      max-width: 100%;
+      max-width: 20%;
       height: auto;  
       margin: 5px auto 5px auto;
       display: block;  
