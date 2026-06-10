@@ -254,7 +254,6 @@
     }
     
     .gipicture {
-      min-height: 75px;
       width: calc(100px + 13vw);
       height: auto;  
       margin: 5px auto 5px auto;
