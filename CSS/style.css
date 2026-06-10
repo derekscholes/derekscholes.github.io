@@ -23,10 +23,10 @@
     }
 
     .heading-picture {
+      display: block;    
       height: 50px;
       width: 200px;
       margin: auto;
-      display: block;  
      }
     
     button {
