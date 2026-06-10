@@ -24,7 +24,7 @@
 
     .heading-picture {
       display: block;    
-      width: calc(50px + 13vw);;
+      width: calc(50px + 13vw);
       height: auto; 
       margin: auto;
      }
