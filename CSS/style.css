@@ -28,7 +28,20 @@
       height: auto; 
       margin: auto;
      }
-    
+
+    home-button {
+      min-height: 50px;
+      font-size: calc(8px + 1vw);
+      text-align: center;
+      border: 0;
+      width: calc(50px + 13vw);
+      margin: 2px;
+           }
+
+    home-button:hover {
+      color: #0BA5BE;
+    }
+
     button {
       background-color: #0BA5BE;
       min-height: 50px;
