@@ -25,6 +25,8 @@
     .heading-picture {
       height: 150px;
       width: 300px;
+      margin: auto;
+      display: block;
      }
     
     button {
