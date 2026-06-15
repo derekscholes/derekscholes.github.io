@@ -27,7 +27,6 @@
       width: calc(50px + 13vw);
       height: auto; 
       margin: auto;
-        object-fit: cover;
      }
 
    .heading-picture:hover {
@@ -206,7 +205,7 @@
     
     input,
     textarea,
-    select, {
+    select {
       margin: 10px 0 0 0;
       width: 100%;
       min-height: 2em;
@@ -224,7 +223,7 @@
       vertical-align: middle;
     }
     
-    button2[type="submit"], input[type="submit"] {
+    input[type="submit"] {
       display: block;
       width: 60%;
       margin: 1em auto;
@@ -254,12 +253,12 @@
     }
     
     .gipicture {
+      min-height: 75px;
       width: calc(100px + 13vw);
       height: auto;  
       margin: 5px auto 5px auto;
       display: block;  
       text-align: center;  
-        object-fit: cover;
     }
 
 
