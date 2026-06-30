@@ -9,24 +9,23 @@
          }
 
      .top-buttons {
-      max-width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 10px 0 2px;
-      flex-wrap: wrap;
+    
+      display: flex;  
+      align-items: stretch;
+      flex-wrap: nowrap;
+      gap: 4px;   
+      width: 100%;   
     }
     
     .top-buttons > * {
-      flex: column 1 1 0;
-      margin: 2px;
+      flex: 1 1 0;
+      min-width: 0;
     }
 
     .heading-picture {
-      display: block;    
-      width: calc(50px + 13vw);
+      flex: 0 0 auto;    
+      width: clamp(50px, 10vw, 120px);
       height: auto; 
-      margin: auto;
      }
 
    .heading-picture:hover {
@@ -35,17 +34,16 @@
    }
 
     button {
-      background-color: #0BA5BE;
-      min-height: 50px;
-      font-size: calc(8px + 1vw);
-      font-family: sanserif;
+      width: 100%;  
+      min-height: 50px;      
+      font-size: clamp(10px, 1vw + 8px, 18px);
+      font-family: san-serif;
       font-weight: bold;
-      text-align: center;
       border: 0;
       border-radius: 10px;
+      background-color: #0BA5BE;  
       color: #013F4E;
-      width: calc(50px + 13vw);
-      margin: 2px;
+      padding: 0.5rem;
            }
 
     button:hover {
