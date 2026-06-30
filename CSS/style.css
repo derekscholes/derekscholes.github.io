@@ -24,19 +24,6 @@
       min-width: 0;  
     }
 
-    .heading-picture {
-    display: block;
-    flex: 0.5;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 10px;
-     }
-
-   .heading-picture:hover {
-            background-color: #013F4E;
-            color: #0BA5BE;
-   }
 
     button {
     /*  width: 100%;
@@ -84,6 +71,19 @@
       text-decoration: none;
     }
 
+    .heading-picture {
+    display: block;
+    flex: 0.5;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+     }
+
+   .heading-picture:hover {
+            background-color: #013F4E;
+            color: #0BA5BE;
+   }
 
     /*body*/
     body {
