@@ -11,15 +11,16 @@
      .top-buttons {
       display: flex;  
       align-items: stretch;
-         justify-content: center;
+      justify-content: center;
       flex-wrap: nowrap;
-      width: 100%;   
+      max-width: 100%;   
       margin: 0 10px 0 2px;
     }
     
     .top-buttons > * {
       flex: 1 1 0;
       min-width: 0;
+      margin: 2px;  
     }
 
     .heading-picture {
@@ -35,7 +36,7 @@
    }
 
     button {
-      width: 100%;  
+      width: calc(50px + 13vw);
       min-height: 50px;      
       font-size: clamp(10px, 1vw + 8px, 18px);
       font-family: san-serif;
@@ -44,7 +45,7 @@
       border-radius: 10px;
       background-color: #0BA5BE;  
       color: #013F4E;
-      padding: 2px;
+      margin: 2px;
            }
 
     button:hover {
