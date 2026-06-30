@@ -228,10 +228,16 @@
       margin: 1em auto;
       height: 2em;
       font-size: 1.1rem;
-      background-color: #00718F;
-      border-color: #0BA5BE;
+      background-color: #0BA5BE;  
+      color: #013F4E;
       min-width: 300px;
     }
+
+    input[type="submit"]:hover {
+            background-color: #013F4E;
+            color: #0BA5BE;
+            text-decoration: none;
+           }
     
     input[type="file"] {
       padding: 1px 2px;
