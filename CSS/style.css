@@ -24,8 +24,9 @@
 
     .heading-picture {
       flex: 0 0 auto;
-      width: clamp(50px, 10vw, 120px);
-      height: auto;
+        width: calc(50px + 13vw); 
+        height: auto; 
+        margin: auto;
      }
 
    .heading-picture:hover {
