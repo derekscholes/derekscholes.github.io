@@ -15,6 +15,7 @@
       flex-wrap: nowrap;
       gap: 4px;   
       width: 100%;   
+      margin: 2px;
     }
     
     .top-buttons > * {
@@ -23,8 +24,8 @@
     }
 
     .heading-picture {
-      flex: 0 0 auto;    
-      width: clamp(50px, 10vw, 120px);
+      display: block;  
+      width: calc(50px + 13vw);
       height: auto; 
      }
 
