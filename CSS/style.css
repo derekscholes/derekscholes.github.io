@@ -17,7 +17,7 @@
     }
     
     .top-buttons > * {
-      flex: 1 1 0;
+      flex: column 1 1 0;
       min-width: 0;
       margin: 2px;  
     }
