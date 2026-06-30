@@ -36,7 +36,7 @@
    }
 
     button {
-      width: calc(50px + 13vw);
+      width: 100%;
       min-height: 50px;      
       font-size: clamp(10px, 1vw + 8px, 18px);
       font-family: san-serif;
