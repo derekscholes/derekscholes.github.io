@@ -23,9 +23,9 @@
     }
 
     .heading-picture {
-      display: block;  
-      min-height: 50px;      
-      width: calc(50px + 13vw);
+      flex: 0 0 auto;
+      width: clamp(50px, 10vw, 120px);
+      height: auto;
      }
 
    .heading-picture:hover {
