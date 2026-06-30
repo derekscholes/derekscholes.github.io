@@ -25,18 +25,7 @@
     }
 
 
-    button {
-    /*  width: 100%;
-      min-height: 50px;      
-      font-size: clamp(10px, 1vw + 8px, 18px);
-      font-family: san-serif;
-      font-weight: bold;
-      border: 0;
-      border-radius: 10px;
-      background-color: #0BA5BE;  
-      color: #013F4E;
-      margin: 2px;
-        */
+/*    button {
     flex: 1;
     width: 100%;
     min-height: 55px;
@@ -52,32 +41,49 @@
     white-space: nowrap;
     transition: background-color 0.2s ease, color 0.2s ease;
     }
+*/
 
-    button:hover {
+    nav-btn:hover {
             background-color: #013F4E;
             color: #0BA5BE;
             text-decoration: none;
            }
     
-    button:visited {
+   nav-btn:visited {
       color: white;
       background-color: #0BA5BE;
       text-decoration: none;
     }
     
-    button:active {
+    nav-btn:active {
       color: white;
       background-color: #0BA5BE;
       text-decoration: none;
     }
 
+   .logo {
+     flex: 1.5;
+     display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .nav-btn {
+     flex: 1;
+       text-align: center;
+       bacground-color: #0BA5BE;
+       color: #013F4E;
+       padding: 12px;
+       border-radius: 10px;
+       text-decoration: none;
+       font-weight: bold;
+   }
+
     .heading-picture {
-    display: block;
-    flex: 0.5;
+    display: block;    
     width: 100%;
+    max-width: 220px;    
     height: auto;
-    object-fit: contain;
-    border-radius: 10px;
      }
 
    .heading-picture:hover {
