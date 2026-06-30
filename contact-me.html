@@ -7,23 +7,27 @@
     <title>Gastrointestinal Nutrition Therapy: Contact Us</title>
     <link href="CSS/style.css" rel="stylesheet"/>
   </head>
+  
   <body>
+    
+      <header class="heading">
+        <nav class="top-buttons">
+          <a href="index.html"><img class="heading-picture" src="/Images/New_Crop.png"></a>
+          <a href="documents.html"><button>Documents</button></a>
+          <a href="blog.html"><button>Nutrition Blog</button></a>
+          <a href="team.html"><button>Meet the Team</button></a>
+          <a href="contact-me.html"><button>Contact Us</button></a>
+        </nav>
+      </header>
+    
     <main>
-      <div class="heading">
-        <section class="top-buttons">
-          <div><a href="index.html"><img class="heading-picture" src="/Images/New_Crop.png"></a></div>
-          <div><a href="documents.html"><button>Documents</button></a></div>
-          <div><a href="blog.html"><button>Nutrition Blog</button></a></div>
-          <div><a href="team.html"><button>Meet the Team</button></a></div>
-          <div><a href="contact-me.html"><button>Contact Us</button></a></div>
-        </section>
-      </div>
-    </div>
-    <div class="contact-top-bar">
-      <section1>
+      
+    <section1 class="contact-top-bar">
         <h3>Contact Form</h3>
     <p class="contact">Please fill out this form with the required information.</p>
+      
     <form action="https://formsubmit.co/contact@ginutritiontherapy.com" method="POST" >
+      
         <label for="name">Enter Your Name: <input id="name" name="name" type="text" required></label>
         <label for="email">Enter Your Email: <input id="email" name="email" type="email" required></label>
         <label for="referrer">How did you hear about us?
@@ -36,19 +40,19 @@
           </select>
         </label>
         <label for="message">Message:
-          <textarea id="message" name="message" rows="3" cols="30" placeholder="Comment here..."></textarea>
+          <textarea id="message" name="message" rows="4" placeholder="Comment here..."></textarea>
         </label>
       <input type="submit" value="Send">
     </form>
       </section1>
     </div>
-    <hr class="bottom-line">
+       </main>
       <footer>
+         <hr class="bottom-line">
         <p>
           Published: June 1, 2023
         </p>
         <p>Updated: June 30, 2026</p>
       </footer>
-  </main>
   </body>
 </html>  
