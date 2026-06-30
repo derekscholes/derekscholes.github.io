@@ -9,14 +9,11 @@
          }
 
      .top-buttons {
-    
       display: flex;  
       align-items: stretch;
       flex-wrap: nowrap;
-      gap: 4px;   
       width: 100%;   
       margin: 0 10px 0 2px;
-      justify-content: center;
     }
     
     .top-buttons > * {
@@ -31,7 +28,7 @@
      }
 
    .heading-picture:hover {
-               background-color: #013F4E;
+            background-color: #013F4E;
             color: #0BA5BE;
    }
 
