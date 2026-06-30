@@ -42,6 +42,18 @@
     transition: background-color 0.2s ease, color 0.2s ease;
     }
 */
+   .nav-btn {
+     flex: 1;
+       text-align: center;
+       bacground-color: #0BA5BE;
+       color: #013F4E;
+       font-family: sans-serif;
+       font-size: clamp(12px, 1.2vw, 20px);
+       padding: 12px;
+       border-radius: 10px;
+       text-decoration: none;
+       font-weight: bold;
+   }
 
     nav-btn:hover {
             background-color: #013F4E;
@@ -62,23 +74,10 @@
     }
 
    .logo {
-     flex: 1.5;
+     flex: 1;
      display: flex;
        justify-content: center;
        align-items: center;
-   }
-
-   .nav-btn {
-     flex: 1;
-       text-align: center;
-       bacground-color: #0BA5BE;
-       color: #013F4E;
-       font-family: sans-serif;
-       font-size: clamp(12px, 1.2vw, 20px);
-       padding: 12px;
-       border-radius: 10px;
-       text-decoration: none;
-       font-weight: bold;
    }
 
     .heading-picture {
@@ -88,10 +87,10 @@
     height: auto;
      }
 
-   .heading-picture:hover {
+   /* .heading-picture:hover {
             background-color: #013F4E;
             color: #0BA5BE;
-   }
+   }*/
 
     /*body*/
     body {
