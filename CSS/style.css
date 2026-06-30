@@ -18,9 +18,8 @@
     }
     
     .top-buttons > * {
-      flex: column 1 1 0;
+      flex: 1 1 0;
       min-width: 0;
-      margin: 2px;  
     }
 
     .heading-picture {
