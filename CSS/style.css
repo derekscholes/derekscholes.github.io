@@ -14,7 +14,7 @@
       align-items: stretch;
       flex-wrap: nowrap;
       gap: 4px;   
-      width: 90%;   
+      width: 100%;   
       margin: 0 10px 0 2px;
       justify-content: center;
     }
